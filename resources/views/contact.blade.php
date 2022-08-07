@@ -410,16 +410,14 @@
       <table class="workflow_form table table-bordered tcd-workflow wf-form" style="table-layout:auto; background:#FFFFFF">
         <tbody><tr class="workflow_form_headline" style="color:#000000">
           <th class="text-center workflow_top_th" colspan="2">
-            <b ng-bind="data.name"></b>
+            <b>@{{data.name}}</b>
           </th>
         </tr>
         <!-- ngRepeat: row in data.steps -->
         <tr ng-repeat="row in data.steps" class="ng-scope">
           <td style="width:30%; vertical-align:middle" class="text-center workflow_left_td">
-            <span style="color:#000000;" ng-bind="row.label1">
-                <span style="color:firebrick" class="ng-scope">
-                    &nbsp;*
-                </span>
+            <span style="color:#000000;">
+                @{{row.label1}}
             </span>
 
             <!-- ngIf: row.required == '1' -->
@@ -431,8 +429,26 @@
 
           <td class="workflow_right_td" ng-hide="confirm">
             <!-- ngIf: row.type == 'text' -->
-            <input style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" type="text" ng-if=" row.type == 'text' " ng-model="row.answer" ng-required=" row.required == '1' " required="required"><!-- end ngIf: row.type == 'text' -->
+            <input style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" type="text" ng-if="row.type == 'text'" ng-model="row.answer" ng-required="row.required == '1'" required="required">
+            <!-- end ngIf: row.type == 'text' -->
+
             <!-- ngIf: row.type == 'email' -->
+            <input style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-valid-email ng-invalid ng-invalid-required" type="email" ng-if=" row.type == 'email' " ng-model="row.answer" ng-required=" row.required == '1' " required="required">
+            <!-- end ngIf: row.type == 'email' -->
+
+            <!-- ngIf: row.type == 'radio' -->
+            <fieldset ng-if="row.type == 'radio'" class="ng-scope">
+              <!-- ngRepeat: option in row.options track by $index -->
+              <div style="display:inline-block" ng-repeat="option in row.options track by $index" class="ng-scope">
+                <input type="radio" id="@{{option}}" value="@{{option}}" ng-model="row.answer" class="ng-pristine ng-untouched ng-valid" name="45">&nbsp;&nbsp;@{{option}}
+                <label for="@{{option}}" class="ng-binding"></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </div>
+              <!-- end ngRepeat: option in row.options track by $index -->
+            </fieldset>
+            <!-- end ngIf: row.type == 'radio' -->
+
+
             <!-- ngIf: row.type == 'textarea' -->
             <!-- ngIf: row.type == 'radio' -->
             <!-- ngIf: row.type == 'select' -->
