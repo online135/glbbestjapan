@@ -225,7 +225,7 @@
 							<div class="elementor-widget-wrap">
 						<div class="elementor-element elementor-element-3aa8e2a elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="3aa8e2a" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><a href="https://glbbestjapan.com/message/"><img width="540" height="300" src="https://glbbestjapan.com/wp-content/uploads/2021/05/名称未設定のデザイン-29.png" class="elementor-animation-grow attachment-full size-full" alt="" loading="lazy"></a></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">代表メッセージ</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><a href="{{ url('message') }}"><img width="540" height="300" src="https://glbbestjapan.com/wp-content/uploads/2021/05/名称未設定のデザイン-29.png" class="elementor-animation-grow attachment-full size-full" alt="" loading="lazy"></a></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">代表メッセージ</p></div></div>		</div>
 				</div>
 						</div>
 					</div>
@@ -235,7 +235,7 @@
 							<div class="elementor-widget-wrap">
 						<div class="elementor-element elementor-element-6fb6d66 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="6fb6d66" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><a href="https://glbbestjapan.com/business/"><img width="540" height="300" src="https://glbbestjapan.com/wp-content/uploads/2021/05/名称未設定のデザイン-35.png" class="elementor-animation-grow attachment-full size-full" alt="" loading="lazy"></a></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">事業案内</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><a href="{{ url('business') }}"><img width="540" height="300" src="https://glbbestjapan.com/wp-content/uploads/2021/05/名称未設定のデザイン-35.png" class="elementor-animation-grow attachment-full size-full" alt="" loading="lazy"></a></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">事業案内</p></div></div>		</div>
 				</div>
 						</div>
 					</div>
@@ -245,7 +245,7 @@
 							<div class="elementor-widget-wrap">
 						<div class="elementor-element elementor-element-61028b7 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="61028b7" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><a href="https://glbbestjapan.com/recruit/"><img width="540" height="300" src="https://glbbestjapan.com/wp-content/uploads/2021/05/10.png" class="elementor-animation-grow attachment-full size-full" alt="" loading="lazy"></a></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">採用情報</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><a href="{{ url('recruit') }}"><img width="540" height="300" src="https://glbbestjapan.com/wp-content/uploads/2021/05/10.png" class="elementor-animation-grow attachment-full size-full" alt="" loading="lazy"></a></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">採用情報</p></div></div>		</div>
 				</div>
 						</div>
 					</div>
@@ -325,7 +325,7 @@
 	
 <div class="section container-fluid">
   <div class="row">
-        <div class="col-xs-120"><a href="https://glbbestjapan.com/"><img src="https://glbbestjapan.com/wp-content/uploads/2020/01/GLBrogo.png" alt="Global Best Japan" title="Global Best Japan" width="200" height="200" class="footer_logo"></a></div>    <div class="col-xs-120 footer-menu">
+        <div class="col-xs-120"><a href="{{ url('') }}"><img src="https://glbbestjapan.com/wp-content/uploads/2020/01/GLBrogo.png" alt="Global Best Japan" title="Global Best Japan" width="200" height="200" class="footer_logo"></a></div>    <div class="col-xs-120 footer-menu">
           </div>
   </div>
 </div>
@@ -338,7 +338,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-30 text-right col-sm-push-90">
-                        <a class="target_blank" href="https://glbbestjapan.com/feed/" target="_blank"><img src="https://glbbestjapan.com/wp-content/themes/agent_tcd033/images/rss.png" class="social-icon"></a>			</div>
+                        <a class="target_blank" href="{{ url('feed') }}" target="_blank"><img src="https://glbbestjapan.com/wp-content/themes/agent_tcd033/images/rss.png" class="social-icon"></a>			</div>
       <div class="col-sm-offset-30 col-sm-60 col-sm-pull-30 text-center romaji" style="color:white; height:60px; line-height:60px;">Copyright 2022 Global Best Japan</div>
 		</div>
 	</div>

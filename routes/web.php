@@ -48,6 +48,14 @@ Route::get('/interview', function () {
     return view('interview');
 })->name('interview');
 
+Route::get('/ceointerview', function () {
+    return view('ceointerview');
+})->name('ceointerview');
+
+Route::get('/cto_interview', function () {
+    return view('cto_interview');
+})->name('cto_interview');
+
 Route::get('/privacy-policy', function () {
     return view('privacy-policy');
 })->name('privacy-policy');
@@ -59,7 +67,6 @@ Route::get('/privacy-policy', function () {
 Route::get('/business', function () {
     return view('business');
 })->name('business');
-
 
 
 /**
@@ -76,8 +83,6 @@ Route::get('/recruit', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
-
-
 
 
 /**
