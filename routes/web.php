@@ -15,22 +15,22 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('index');
 
 Route::get('/index', function () {
     return view('welcome');
-});
+})->name('index');
 
 /**
  * GLOBAL BEST JAPAN とは
  */
 Route::get('/about', function () {
     return view('about');
-});
+})->name('about');
 
 Route::get('/culture', function () {
     return view('culture');
-});
+})->name('culture');
 
 
 /**
@@ -38,19 +38,19 @@ Route::get('/culture', function () {
  */
 Route::get('/outline', function () {
     return view('outline');
-});
+})->name('outline');
 
 Route::get('/message', function () {
     return view('message');
-});
+})->name('message');
 
 Route::get('/interview', function () {
     return view('interview');
-});
+})->name('interview');
 
 Route::get('/privacy-policy', function () {
     return view('privacy-policy');
-});
+})->name('privacy-policy');
 
 
 /**
@@ -58,7 +58,7 @@ Route::get('/privacy-policy', function () {
  */
 Route::get('/business', function () {
     return view('business');
-});
+})->name('business');
 
 
 

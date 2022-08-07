@@ -202,7 +202,6 @@
 	
 @include('layouts.nav');
 
-
 <div class="container-fluid page_header_image">
 	<div class="row">
 		<div class="col-xs-120 page-splash" data-parallax="scroll" data-image-src="https://glbbestjapan.com/wp-content/uploads/2020/01/会社概要ヘッダーpc.jpg"></div>
@@ -211,12 +210,9 @@
 
 <div class="container" style=" background:white">
   
-<ul id="bread_crumb" class="clearfix" itemscope="" itemtype="http://schema.org/BreadcrumbList">
-  <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="home"><a itemprop="item" href="https://glbbestjapan.com/"><span itemprop="name">ホーム</span></a><meta itemprop="position" content="1"></li>
-
- <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="last"><span itemprop="name">お問い合わせ</span><meta itemprop="position" content="2"></li>
-
- </ul>
+ {{ Breadcrumbs::render('Contact') }}
+ 
+</ul>
 		<div class="row mt40 mb40">
 		<div class="col-sm-120 nm30">
 						<h2 class="headline text-center page_headline">お問い合わせ</h2>
