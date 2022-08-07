@@ -635,7 +635,5 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 
 	})(jQuery)
 </script>
-
-
-
-<div id="torrent-scanner-popup" style="display: none;"></div></body><loom-container id="lo-engage-ext-container"><loom-shadow classname="resolved"></loom-shadow></loom-container><loom-container id="lo-companion-container"><loom-shadow classname="resolved"></loom-shadow></loom-container></html>
+</body>
+</html>
