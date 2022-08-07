@@ -1,132 +1,586 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="ja"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Laravel</title>
+	<title>プライバシーポリシー | Global Best Japan</title>
+	<meta name="description" content="プライバシーポリシー				当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を使用しています。このGoogleアナリティクスはデータの収集のためにCookieを使用しています。">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://glbbestjapan.com/xmlrpc.php">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+		<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="Global Best Japan » フィード" href="https://glbbestjapan.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Global Best Japan » コメントフィード" href="https://glbbestjapan.com/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/glbbestjapan.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://glbbestjapan.com/wp-includes/js/wp-emoji-release.min.js?ver=5.7.1" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="https://glbbestjapan.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="tcd-contact-form-css" href="https://glbbestjapan.com/wp-content/plugins/tcd-workflow/tcd-contact-admin.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="_tk-bootstrap-wp-css" href="https://glbbestjapan.com/wp-content/themes/agent_tcd033/includes/css/bootstrap-wp.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="_tk-bootstrap-css" href="https://glbbestjapan.com/wp-content/themes/agent_tcd033/includes/resources/bootstrap/css/bootstrap.min.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="_tk-font-awesome-css" href="https://glbbestjapan.com/wp-content/themes/agent_tcd033/includes/css/font-awesome.min.css?ver=4.1.0" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="https://glbbestjapan.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.15.0" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-legacy-css" href="https://glbbestjapan.com/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.6.7" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="https://glbbestjapan.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.6.7" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-134-css" href="https://glbbestjapan.com/wp-content/uploads/elementor/css/post-134.css?ver=1657700470" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="https://glbbestjapan.com/wp-content/uploads/elementor/css/global.css?ver=1657700484" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-985-css" href="https://glbbestjapan.com/wp-content/uploads/elementor/css/post-985.css?ver=1657700632" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=5.7.1" type="text/css" media="all">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?ver=5.7.1" id="jquery-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/plugins/tcd-workflow/angular.js?ver=5.7.1" id="angular-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/themes/agent_tcd033/includes/resources/bootstrap/js/bootstrap.js?ver=5.7.1" id="_tk-bootstrapjs-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/themes/agent_tcd033/includes/js/bootstrap-wp.js?ver=5.7.1" id="_tk-bootstrapwp-js"></script>
+<link rel="https://api.w.org/" href="https://glbbestjapan.com/wp-json/"><link rel="alternate" type="application/json" href="https://glbbestjapan.com/wp-json/wp/v2/pages/985"><link rel="canonical" href="https://glbbestjapan.com/privacy-policy/">
+<link rel="shortlink" href="https://glbbestjapan.com/?p=985">
+<link rel="alternate" type="application/json+oembed" href="https://glbbestjapan.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fglbbestjapan.com%2Fprivacy-policy%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://glbbestjapan.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fglbbestjapan.com%2Fprivacy-policy%2F&amp;format=xml">
+<style type="text/css"></style>	<style type="text/css">
+			.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<link rel="icon" href="https://glbbestjapan.com/wp-content/uploads/2021/05/cropped-名称未設定のデザイン-50-32x32.png" sizes="32x32">
+<link rel="icon" href="https://glbbestjapan.com/wp-content/uploads/2021/05/cropped-名称未設定のデザイン-50-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://glbbestjapan.com/wp-content/uploads/2021/05/cropped-名称未設定のデザイン-50-180x180.png">
+<meta name="msapplication-TileImage" content="https://glbbestjapan.com/wp-content/uploads/2021/05/cropped-名称未設定のデザイン-50-270x270.png">
+		<style type="text/css" id="wp-custom-css">
+			.agent-header-menu .navbar{
+margin-left:0px;
+}
 
-        <!-- Styles -->
-        <style>
-            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-t{border-top-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.dark\:text-gray-500{--tw-text-opacity:1;color:#6b7280;color:rgba(107,114,128,var(--tw-text-opacity))}}
-        </style>
+#logo-area img{
+width:60px;
+}
+		</style>
+			<link rel="stylesheet" href="https://glbbestjapan.com/wp-content/themes/agent_tcd033/style.css?ver=3.1.16" type="text/css">
 
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+	
+	<script type="text/javascript" src="https://glbbestjapan.com/wp-content/themes/agent_tcd033/parallax.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://glbbestjapan.com/wp-content/themes/agent_tcd033/agent.css" type="text/css">
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+		<script type="text/javascript" src="https://glbbestjapan.com/wp-content/themes/agent_tcd033/js/jscript.js"></script>
+	<script src="https://glbbestjapan.com/wp-content/themes/agent_tcd033/js/comment.js?ver=?ver=3.1.16"></script>
+	<link rel="stylesheet" href="https://glbbestjapan.com/wp-content/themes/agent_tcd033/comment-style.css" type="text/css">
 
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                        <g clip-path="url(#clip0)" fill="#EF3B2D">
-                            <path d="M248.032 44.676h-16.466v100.23h47.394v-14.748h-30.928V44.676zM337.091 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.431 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162-.001 2.863-.479 5.584-1.432 8.161zM463.954 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.432 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162 0 2.863-.479 5.584-1.432 8.161zM650.772 44.676h-15.606v100.23h15.606V44.676zM365.013 144.906h15.607V93.538h26.776V78.182h-42.383v66.724zM542.133 78.182l-19.616 51.096-19.616-51.096h-15.808l25.617 66.724h19.614l25.617-66.724h-15.808zM591.98 76.466c-19.112 0-34.239 15.706-34.239 35.079 0 21.416 14.641 35.079 36.239 35.079 12.088 0 19.806-4.622 29.234-14.688l-10.544-8.158c-.006.008-7.958 10.449-19.832 10.449-13.802 0-19.612-11.127-19.612-16.884h51.777c2.72-22.043-11.772-40.877-33.023-40.877zm-18.713 29.28c.12-1.284 1.917-16.884 18.589-16.884 16.671 0 18.697 15.598 18.813 16.884h-37.402zM184.068 43.892c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002-35.648-20.524a2.971 2.971 0 00-2.964 0l-35.647 20.522-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v38.979l-29.706 17.103V24.493a3 3 0 00-.103-.776c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002L40.098 1.396a2.971 2.971 0 00-2.964 0L1.487 21.919l-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v122.09c0 1.063.568 2.044 1.489 2.575l71.293 41.045c.156.089.324.143.49.202.078.028.15.074.23.095a2.98 2.98 0 001.524 0c.069-.018.132-.059.2-.083.176-.061.354-.119.519-.214l71.293-41.045a2.971 2.971 0 001.489-2.575v-38.979l34.158-19.666a2.971 2.971 0 001.489-2.575V44.666a3.075 3.075 0 00-.106-.774zM74.255 143.167l-29.648-16.779 31.136-17.926.001-.001 34.164-19.669 29.674 17.084-21.772 12.428-43.555 24.863zm68.329-76.259v33.841l-12.475-7.182-17.231-9.92V49.806l12.475 7.182 17.231 9.92zm2.97-39.335l29.693 17.095-29.693 17.095-29.693-17.095 29.693-17.095zM54.06 114.089l-12.475 7.182V46.733l17.231-9.92 12.475-7.182v74.537l-17.231 9.921zM38.614 7.398l29.693 17.095-29.693 17.095L8.921 24.493 38.614 7.398zM5.938 29.632l12.475 7.182 17.231 9.92v79.676l.001.005-.001.006c0 .114.032.221.045.333.017.146.021.294.059.434l.002.007c.032.117.094.222.14.334.051.124.088.255.156.371a.036.036 0 00.004.009c.061.105.149.191.222.288.081.105.149.22.244.314l.008.01c.084.083.19.142.284.215.106.083.202.178.32.247l.013.005.011.008 34.139 19.321v34.175L5.939 144.867V29.632h-.001zm136.646 115.235l-65.352 37.625V148.31l48.399-27.628 16.953-9.677v33.862zm35.646-61.22l-29.706 17.102V66.908l17.231-9.92 12.475-7.182v33.841z"/>
-                        </g>
-                    </svg>
-                </div>
+	<link rel="stylesheet" media="screen and (max-width:770px)" href="https://glbbestjapan.com/wp-content/themes/agent_tcd033/footer-bar/footer-bar.css?ver=?ver=3.1.16">
 
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                        <div class="p-6">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Documentation</a></div>
-                            </div>
+	
+	<style type="text/css">
+			</style>
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
-                                </div>
-                            </div>
-                        </div>
+	<style type="text/css">
+		#logo_image { top:0px; left:0px; }
+		body { font-size:14px; }
+	.menu-item a:hover, .entry-content a {color: #3FA5F5 !important;}
+	.title a:hover, .entry-meta a:hover, .post_category a:hover, .widget a:hover, .categories-wrap a:hover {color: #3FA5F5!important;}
+	.dropdown-menu {
+	  background-color:#3FA5F5;
+	}
+	.dropdown-menu .menu-item:hover *{
+	  background:#2C73AB!important;
+	}
+	.link-button-azure_top, .link-button-azure_btm{
+	  background-color:#3FA5F5!important;
+	}
+	.next-button:after { border-left-color:3FA5F5!important; border-bottom-color:3FA5F5!important; }
+	.next-button:hover, .next-button:hover:after {border-color:2C73AB!important;}
+	.link-button-azure_top:hover, .link-button-azure_btm:hover {
+	  background:#2C73AB!important;
+	}
+	.read-more:hover, .archives_btn:hover, .prev_link a:hover, .next_link a:hover, #submit_comment:hover, .form_table .btn-primary, .form_table td.form_title  { background:#3FA5F5!important; }
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">Laracasts</a></div>
-                            </div>
+  @media only screen and (min-width: 767px) {
+    .navbar-nav > .current-menu-item > a{color: #3FA5F5 !important;}
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .current-menu-item *{color: #3FA5F5 !important;}
+    .menu-item.active a {
+      color:black;
+    }
+  }
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </div>
-                            </div>
-                        </div>
+			p { word-wrap:break-word; }
+	
+	@media screen and (max-width: 640px) {
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white">Laravel News</a></div>
-                            </div>
+#logo_image img {
+    display: none;
+}
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </div>
-                            </div>
-                        </div>
+#logo_image a:before {
+    content: attr(title);
+}
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</div>
-                            </div>
+}
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+#agent-splash-text{
+width: 100%;
+    margin-top: 60px;
+    padding: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+  
+ 　line-height: 1.6;
+}
 
-                <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm text-gray-500 sm:text-left">
-                        <div class="flex items-center">
-                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" class="-mt-px w-5 h-5 text-gray-400">
-                                <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                            </svg>
+	
+			#agent-header-outer{ position: fixed;}
+		.navbar-collapse.collapse.in{ margin-top:0; }
+		.mobile_nav_wapper{ position:fixed; top:90px; }
+	
 
-                            <a href="https://laravel.bigcartel.com" class="ml-1 underline">
-                                Shop
-                            </a>
+							.form_table td.form_title{ background: #3FA5F5; }
+		.form_table .btn-primary{ background: #3FA5F5; }
+		.form_table .btn-primary:hover{ background: #2C73AB; }
+	
+	</style>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WW4M66SGYB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="ml-4 -mt-px w-5 h-5 text-gray-400">
-                                <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                            </svg>
+  gtag('config', 'G-WW4M66SGYB');
+</script>
+<style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
 
-                            <a href="https://github.com/sponsors/taylorotwell" class="ml-1 underline">
-                                Sponsor
-                            </a>
-                        </div>
-                    </div>
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
 
-                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}</style></head>
+
+<body class="page-template-default page page-id-985 elementor-default elementor-kit-134 elementor-page elementor-page-985 e--ua-blink e--ua-chrome e--ua-webkit" data-elementor-device-mode="desktop">
+	
+	<div id="verytop"></div>
+	<div id="agent-header-outer">
+			<div class="container hidden-xs hidden-sm hidden-md">
+				<div class="row">
+					<div class="logo-wrap col-xs-20">
+					  <!-- logo -->
+					  <div id="logo_image">
+<h1 id="logo"><a href="https://glbbestjapan.com/" title="Global Best Japan" data-label="Global Best Japan"><img class="h_logo" src="https://glbbestjapan.com/wp-content/uploads/tcd-w/logo-resized.png?1659877727" alt="Global Best Japan" title="Global Best Japan"></a></h1>
+</div>
+				</div>
+					<div class="col-xs-100 col-md-100 col-lg-80 agent-header-menu romaji">
+	          <div class="navbar navbar-default">
+	            <div class="navbar-header">
+	              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav_toggle">
+	                <span class="sr-only">Toggle navigation </span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	              </button>
+								<div class="collapse navbar-collapse nav_toggle"><ul id="main-menu" class="nav navbar-nav"><li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-181"><a href="https://glbbestjapan.com/about/" class="dropdown-toggle" data-toggle="dropdown">Global Best Japanとは</a>
+<ul class="dropdown-menu depth_0">
+	<li id="menu-item-511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-511"><a href="https://glbbestjapan.com/about/">ミッション＆ビジョン</a></li>
+	<li id="menu-item-509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-509"><a href="https://glbbestjapan.com/culture/">私たちが大切にしていること</a></li>
+	<li id="menu-item-551" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-551"><a href="https://glbbestjapan.com/culture/#photogallery">PHOTO GALLERY</a></li>
+</ul>
+</li>
+<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children dropdown active menu-item-39"><a href="https://glbbestjapan.com/outline/" class="dropdown-toggle" data-toggle="dropdown">会社概要</a>
+<ul class="dropdown-menu depth_0">
+	<li id="menu-item-580" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-580"><a href="https://glbbestjapan.com/outline/">会社概要</a></li>
+	<li id="menu-item-581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-581"><a href="https://glbbestjapan.com/message/">代表メッセージ</a></li>
+	<li id="menu-item-895" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-895"><a href="https://glbbestjapan.com/interview/">INTERVIEW</a></li>
+	<li id="menu-item-996" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-985 current_page_item active menu-item-996"><a href="https://glbbestjapan.com/privacy-policy/">プライバシーポリシー</a></li>
+</ul>
+</li>
+<li id="menu-item-682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-682"><a href="https://glbbestjapan.com/business/">事業案内</a></li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="https://glbbestjapan.com/recruit/">採用情報</a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="https://glbbestjapan.com/contact/">お問い合わせ</a></li>
+</ul></div>							</div>
+						</div>
+					</div>
+									</div>
+			</div>
+			<div class="container hidden-lg">
+	      <div class="row">
+	        <div class="site-navigation-inner col-xs-120">
+	          <div class="navbar navbar-default" style="margin-bottom:0px">
+	            <div class="navbar-header">
+	              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav_toggle" style="z-index:3000">
+	                <span class="sr-only">Toggle navigation </span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	              </button>
+
+	              <div id="logo-area">
+	                <div id="logo_image">
+<h1 id="logo"><a href="https://glbbestjapan.com/" title="Global Best Japan" data-label="Global Best Japan"><img class="h_logo" src="https://glbbestjapan.com/wp-content/uploads/tcd-w/logo-resized.png?1659877727" alt="Global Best Japan" title="Global Best Japan"></a></h1>
+</div>
+	              </div>
+
+	            </div>
+
+	          </div><!-- .navbar -->
+	        </div>
+	      </div>
+			</div>
+	</div>
+	            <!-- The WordPress Menu goes here -->
+	            <div class="hidden-lg mobile_nav_wapper">
+								<div class="collapse navbar-collapse nav_toggle"><ul id="main-menu" class="nav navbar-nav pt0"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-181"><a href="https://glbbestjapan.com/about/" class="dropdown-toggle" data-toggle="dropdown">Global Best Japanとは</a>
+<ul class="dropdown-menu depth_0">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-511"><a href="https://glbbestjapan.com/about/">ミッション＆ビジョン</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-509"><a href="https://glbbestjapan.com/culture/">私たちが大切にしていること</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-551"><a href="https://glbbestjapan.com/culture/#photogallery">PHOTO GALLERY</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children dropdown active menu-item-39"><a href="https://glbbestjapan.com/outline/" class="dropdown-toggle" data-toggle="dropdown">会社概要</a>
+<ul class="dropdown-menu depth_0">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-580"><a href="https://glbbestjapan.com/outline/">会社概要</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-581"><a href="https://glbbestjapan.com/message/">代表メッセージ</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-895"><a href="https://glbbestjapan.com/interview/">INTERVIEW</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-985 current_page_item active menu-item-996"><a href="https://glbbestjapan.com/privacy-policy/">プライバシーポリシー</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-682"><a href="https://glbbestjapan.com/business/">事業案内</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="https://glbbestjapan.com/recruit/">採用情報</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="https://glbbestjapan.com/contact/">お問い合わせ</a></li>
+</ul></div>	            </div>
+
+
+	
+
+
+
+<div class="container" style=" margin-top:215px; background:white">
+  
+<ul id="bread_crumb" class="clearfix" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+  <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="home"><a itemprop="item" href="https://glbbestjapan.com/"><span itemprop="name">ホーム</span></a><meta itemprop="position" content="1"></li>
+
+ <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="last"><span itemprop="name">プライバシーポリシー</span><meta itemprop="position" content="2"></li>
+
+ </ul>
+	</div>
+
+<div class="container nm30">
+			</div>
+
+<div class="container">
+				<div class="row mb80 mobile-mb-30">
+				<div class="col-sm-120">		<div data-elementor-type="wp-page" data-elementor-id="985" class="elementor elementor-985">
+						<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-df97a67 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="df97a67" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7aef8c3" data-id="7aef8c3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d12bb05 elementor-widget elementor-widget-spacer" data-id="d12bb05" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-723ac7a elementor-widget elementor-widget-heading" data-id="723ac7a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">プライバシーポリシー</h3>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a7d0a7e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a7d0a7e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-efca45c" data-id="efca45c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1e9a838 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1e9a838" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-029196a elementor-widget elementor-widget-spacer" data-id="029196a" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3727422 animated-slow elementor-widget elementor-widget-text-editor animated fadeIn" data-id="3727422" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を使用しています。</p><p>このGoogleアナリティクスはデータの収集のためにCookieを使用しています。</p><p>このデータは匿名で収集されており、個人を特定するものではありません。</p><p>&nbsp;</p><p>この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。</p><p>この規約に関しての詳細は<a class="external ext_icon" href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank" rel="noopener noreferrer">Googleアナリティクスサービス利用規約</a>のページや<a class="external ext_icon" href="https://policies.google.com/technologies/ads?hl=ja" target="_blank" rel="noopener noreferrer">Googleポリシーと規約</a>ページをご覧ください。</p>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-b1db38e elementor-widget elementor-widget-spacer" data-id="b1db38e" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8224f24 elementor-widget elementor-widget-spacer" data-id="8224f24" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7940263 elementor-widget elementor-widget-heading" data-id="7940263" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-medium">あわせて読む</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-899a2f4 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="899a2f4" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6aaa55c elementor-widget elementor-widget-heading" data-id="6aaa55c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"></h2><h3 id="photogallery"></h3>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-97c6475 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="97c6475" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8bfea32" data-id="8bfea32" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3aa8e2a elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="3aa8e2a" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><a href="https://glbbestjapan.com/message/"><img width="540" height="300" src="https://glbbestjapan.com/wp-content/uploads/2021/05/名称未設定のデザイン-29.png" class="elementor-animation-grow attachment-full size-full" alt="" loading="lazy"></a></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">代表メッセージ</p></div></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9cb9d33" data-id="9cb9d33" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6fb6d66 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="6fb6d66" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><a href="https://glbbestjapan.com/business/"><img width="540" height="300" src="https://glbbestjapan.com/wp-content/uploads/2021/05/名称未設定のデザイン-35.png" class="elementor-animation-grow attachment-full size-full" alt="" loading="lazy"></a></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">事業案内</p></div></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e50967f" data-id="e50967f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-61028b7 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="61028b7" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><a href="https://glbbestjapan.com/recruit/"><img width="540" height="300" src="https://glbbestjapan.com/wp-content/uploads/2021/05/10.png" class="elementor-animation-grow attachment-full size-full" alt="" loading="lazy"></a></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">採用情報</p></div></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-7a3adcd elementor-widget elementor-widget-spacer" data-id="7a3adcd" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c8c3b2d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c8c3b2d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5830f0f" data-id="5830f0f" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+									</div>
+			</div>
+					</div>
+		</div>
+			</div>
+	</div>
+
+
+
+
+	
+<div class="section container-fluid">
+  <div class="row">
+        <div class="col-xs-120"><a href="https://glbbestjapan.com/"><img src="https://glbbestjapan.com/wp-content/uploads/2020/01/GLBrogo.png" alt="Global Best Japan" title="Global Best Japan" width="200" height="200" class="footer_logo"></a></div>    <div class="col-xs-120 footer-menu">
+          </div>
+  </div>
+</div>
+
+<div class="text-center returntop">
+	<a href="#verytop"><span></span></a>
+</div>
+
+<div style="background:black">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-30 text-right col-sm-push-90">
+                        <a class="target_blank" href="https://glbbestjapan.com/feed/" target="_blank"><img src="https://glbbestjapan.com/wp-content/themes/agent_tcd033/images/rss.png" class="social-icon"></a>			</div>
+      <div class="col-sm-offset-30 col-sm-60 col-sm-pull-30 text-center romaji" style="color:white; height:60px; line-height:60px;">Copyright 2022 Global Best Japan</div>
+		</div>
+	</div>
+</div>
+
+<link rel="stylesheet" id="e-animations-css" href="https://glbbestjapan.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.6.7" type="text/css" media="all">
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/themes/agent_tcd033/includes/js/skip-link-focus-fix.js?ver=20130115" id="_tk-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-includes/js/wp-embed.min.js?ver=5.7.1" id="wp-embed-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-includes/js/comment-reply.min.js?ver=5.7.1" id="comment-reply-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.6.7" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.6.7" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.6.7" id="share-link-js"></script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0" id="elementor-dialog-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Facebook \u3067\u5171\u6709","shareOnTwitter":"Twitter \u3067\u5171\u6709","pinIt":"\u30d4\u30f3\u3059\u308b","download":"\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","downloadImage":"\u753b\u50cf\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","fullscreen":"\u30d5\u30eb\u30b9\u30af\u30ea\u30fc\u30f3","zoom":"\u30ba\u30fc\u30e0","share":"\u30b7\u30a7\u30a2","playVideo":"\u52d5\u753b\u518d\u751f","previous":"\u524d","next":"\u6b21","close":"\u9589\u3058\u308b"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"\u30e2\u30d0\u30a4\u30eb","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"\u30bf\u30d6\u30ec\u30c3\u30c8","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"\u30ce\u30fc\u30c8\u30d6\u30c3\u30af","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"\u30ef\u30a4\u30c9\u30b9\u30af\u30ea\u30fc\u30f3","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.6.7","is_static":false,"experimentalFeatures":{"e_import_export":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true},"urls":{"assets":"https:\/\/glbbestjapan.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","active_breakpoints":["viewport_mobile","viewport_tablet"],"lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":985,"title":"%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC%20%E2%80%93%20Global%20Best%20Japan","excerpt":"","featuredImage":false}};
+</script>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.6.7" id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+<script type="text/javascript" src="https://glbbestjapan.com/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.6.7" id="preloaded-modules-js"></script><svg style="display: none;" class="e-font-icon-svg-symbols"></svg>
+
+<script type="text/javascript">
+	(function($){
+
+    equalheight=function(t){var i,e=0,h=0,r=new Array;$(t).each(function(){if(i=$(this),$(i).height("auto"),topPostion=i.position().top,h!=topPostion){for(currentDiv=0;currentDiv<r.length;currentDiv++)r[currentDiv].height(e);r.length=0,h=topPostion,e=i.height(),r.push(i)}else r.push(i),e=e<i.height()?i.height():e;for(currentDiv=0;currentDiv<r.length;currentDiv++)r[currentDiv].height(e)})};
+
+
+    if( $( window ).width() > 767 ){
+      $('ul.nav li.dropdown, ul.nav li.dropdown-submenu').hover(function() {
+    		$(this).find(' > .dropdown-menu').stop(true, true).delay(200).fadeIn();
+    	}, function() {
+    		$(this).find(' > .dropdown-menu').stop(true, true).delay(200).fadeOut();
+    	})
+  	}
+
+    var doHeightAsViewport = function(){
+      $('.heightasviewport').css('height', $(window).height())
+    }
+
+    function fixStuff() {
+      jQuery(".heightaswidth").each(function(){
+        $(this).css('height', $(this).outerWidth())
+      })
+    }
+
+    fixStuff();
+    doHeightAsViewport();
+
+    setInterval(fixStuff, 1000)
+    setInterval(doHeightAsViewport, 300)
+
+    equalheight('.equal-height');
+
+    $(".verticalcenter").each(function(){
+      var center = ($(this).parent().outerHeight() / 2) - parseInt($(this).parent().css('padding-top'))
+      var size = $(this).outerHeight() / 2
+
+      $(this).css('padding-top', center - size)
+    })
+    
+
+    var cursor = 0
+    var slides = $(".splash-image")
+    slides.hide()
+
+    var newSlide = function(){
+      if( cursor >= slides.length ){
+        cursor = 0
+      }
+
+      slides.fadeOut('slow')
+      $(slides[cursor]).fadeIn('slow')
+
+      cursor++;
+    }
+
+    setInterval(newSlide, 3000)
+    newSlide()
+
+		$("#agent-splash-text").removeClass('translated-right')
+		$("#next-button").removeClass('opaque')
+
+    $("a[href*=#]:not([href=#])").click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var e=jQuery(this.hash);if(e=e.length?e:jQuery("[name="+this.hash.slice(1)+"]"),e.length)return jQuery("html,body").animate({scrollTop:e.offset().top},1e3),!1}});
+
+    $(".navbar-toggle").click(function(){
+      setTimeout(function(){
+        $(".menu-item").addClass('open')  
+      }, 300)
+    })
+    
+    $(".menu-item").click(function(){ })
+    
+    $(".menu-item a").click(function(){
+      if( !$(this).attr('href') ){
+        return false
+      }
+    })
+
+	})(jQuery)
+</script>
+
+
+
+<div id="torrent-scanner-popup" style="display: none;"></div></body><loom-container id="lo-engage-ext-container"><loom-shadow classname="resolved"></loom-shadow></loom-container><loom-container id="lo-companion-container"><loom-shadow classname="resolved"></loom-shadow></loom-container></html>

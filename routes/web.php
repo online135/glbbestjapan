@@ -67,7 +67,7 @@ Route::get('/business', function () {
  */
 Route::get('/recruit', function () {
     return view('recruit');
-});
+})->name('recruit');
 
 
 /**
@@ -75,7 +75,7 @@ Route::get('/recruit', function () {
  */
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name('contact');
 
 
 
@@ -85,4 +85,4 @@ Route::get('/contact', function () {
  */
 Route::get('/feed', function() {
     return view('feed');
-});
+})->name('feed');

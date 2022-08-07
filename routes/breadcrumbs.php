@@ -16,5 +16,5 @@ Breadcrumbs::for('index', function (BreadcrumbTrail $trail) {
 // Contact
 Breadcrumbs::for('Contact', function (BreadcrumbTrail $trail) {
     $trail->parent('index');
-    $trail->push('お問い合わせ', "http://127.0.0.1:8000/contact");
+    $trail->push('お問い合わせ', route('contact'));
 });
