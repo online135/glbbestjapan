@@ -208,12 +208,7 @@ width: 100%;
 
 <div class="container" style=" margin-top:215px; background:white">
   
-<ul id="bread_crumb" class="clearfix" itemscope="" itemtype="http://schema.org/BreadcrumbList">
-  <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="home"><a itemprop="item" href="https://glbbestjapan.com/"><span itemprop="name">ホーム</span></a><meta itemprop="position" content="1"></li>
-
- <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="last"><span itemprop="name">私たちが大切にしていること</span><meta itemprop="position" content="2"></li>
-
- </ul>
+{{ Breadcrumbs::render('Culture') }}
 	</div>
 
 <div class="container nm30">

@@ -212,11 +212,7 @@ width: 100%;
 
 <div class="container" style=" background:white">
   
-<ul id="bread_crumb" class="clearfix" itemscope="" itemtype="http://schema.org/BreadcrumbList">
-  <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="home"><a itemprop="item" href="https://glbbestjapan.com/"><span itemprop="name">ホーム</span></a><meta itemprop="position" content="1"></li>
-
- <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="last"><span itemprop="name">会社概要</span><meta itemprop="position" content="2"></li>
-
+{{ Breadcrumbs::render('Outline') }}
  </ul>
 	</div>
 
