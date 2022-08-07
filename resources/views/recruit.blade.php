@@ -215,7 +215,6 @@ width: 100%;
 <div class="container" style=" background:white">
   
 {{ Breadcrumbs::render('Recruit') }}
- </ul>
 		<div class="row mt40 mb40">
 		<div class="col-sm-120 nm30">
 						<h2 class="headline text-center page_headline">採用情報</h2>

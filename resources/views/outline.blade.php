@@ -213,8 +213,8 @@ width: 100%;
 <div class="container" style=" background:white">
   
 {{ Breadcrumbs::render('Outline') }}
- </ul>
-	</div>
+
+</div>
 
 <div class="container nm30">
 				<div class="row mb80 mobile-mb-30">
