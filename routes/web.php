@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/index', function () {
+    return view('welcome');
+});
+
 /**
  * GLOBAL BEST JAPAN とは
  */
@@ -71,4 +75,14 @@ Route::get('/recruit', function () {
  */
 Route::get('/contact', function () {
     return view('contact');
+});
+
+
+
+
+/**
+ * Feed
+ */
+Route::get('/feed', function() {
+    return view('feed');
 });
