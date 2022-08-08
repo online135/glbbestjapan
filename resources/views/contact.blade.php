@@ -147,11 +147,11 @@
           <!-- 按確認前顯示的內容 -->
           <td ng-hide="confirm" class="workflow_right_td">
             <!-- ngIf: row.type == 'text' -->
-            <input style="background:#FFFFFF" class="form-control ng-scope" type="text" ng-if="row.type == 'text'" ng-model="row.answer" ng-required="row.required == '1'" required="required">
+            <input style="background:#FFFFFF" class="form-control ng-scope" type="text" ng-if="row.type == 'text'" ng-model="row.answer" ng-required="row.required == '1'" required="required" placeholder=" @{{row.label1}}">
             <!-- end ngIf: row.type == 'text' -->
 
             <!-- ngIf: row.type == 'email' -->
-            <input style="background:#FFFFFF" class="form-control ng-scope" type="email" ng-if=" row.type == 'email' " ng-model="row.answer" ng-required=" row.required == '1' " required="required">
+            <input style="background:#FFFFFF" class="form-control ng-scope" type="email" ng-if=" row.type == 'email' " ng-model="row.answer" ng-required=" row.required == '1' " required="required" placeholder=" @{{row.label1}}">
             <!-- end ngIf: row.type == 'email' -->
 
             <!-- ngIf: row.type == 'radio' -->
@@ -167,7 +167,7 @@
               <!-- end ngIf: row.type == 'radio' -->
 
               <!-- ngIf: row.type == 'textarea' -->
-              <textarea style="background:#FFFFFF" class="form-control ng-scope" ng-if="row.type == 'textarea'" ng-model="row.answer" ng-required="row.required == '1'" required="required"></textarea>
+              <textarea style="background:#FFFFFF" class="form-control ng-scope" ng-if="row.type == 'textarea'" ng-model="row.answer" ng-required="row.required == '1'" required="required" placeholder=" @{{row.label1}}"></textarea>
               <!-- ngIf: row.type == 'textarea' -->
           </td>
 
