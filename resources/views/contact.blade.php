@@ -145,7 +145,7 @@
 
 
           <!-- 按確認前顯示的內容 -->
-          <td class="workflow_right_td">
+          <td ng-hide="confirm" class="workflow_right_td">
             <!-- ngIf: row.type == 'text' -->
             <input style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" type="text" ng-if="row.type == 'text'" ng-model="row.answer" ng-required="row.required == '1'" required="required">
             <!-- end ngIf: row.type == 'text' -->
@@ -170,6 +170,10 @@
               <textarea style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" ng-if="row.type == 'textarea'" ng-model="row.answer" ng-required="row.required == '1'" required="required"></textarea>
               <!-- ngIf: row.type == 'textarea' -->
           </td>
+
+            <!-- 按確認後顯示的內容 -->
+            <td ng-show="confirm" class="ng-binding">@{{row.answer}}</td>
+
           </tr>
         <!-- end ngRepeat: row in data.steps -->
         </tbody>
