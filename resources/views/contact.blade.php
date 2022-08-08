@@ -55,7 +55,7 @@
       background-color:#FFFFFF!important;    }    
   </style>
   <script type="text/javascript">
-      var app = angular.module('app211119', [])
+      const app = angular.module('app211119', [])
       app.controller('MainCtrl211119', function($scope, $http) {
         $scope.data = {
             "name":"\u304a\u554f\u3044\u5408\u308f\u305b",
@@ -91,8 +91,8 @@
         }
 
         $scope.sendForm = function(){
-          var str = "";
-          var mail = "";
+          let str = "";
+          let mail = "";
           $scope.data.steps.forEach(function(row){
             str = str + row.label1 + ': ' + row.answer
             str = str + '\r\n----------\r\n'
@@ -100,7 +100,7 @@
               mail = row.answer
             }
           })
-          var obj = { 
+          let obj = { 
             action: "tcd_submit_form",
             data: str,
             steps: angular.toJson($scope.data.steps),
@@ -122,7 +122,7 @@
       ご連絡ありがとうございます。担当者からご連絡いたしますので少々お待ちください。
     </h2>
 
-    <form ng-submit="confirmForm()" ng-hide="completed" class="ng-pristine ng-invalid ng-invalid-required ng-valid-email">
+    <form ng-submit="confirmForm()" ng-hide="completed">
       <table class="workflow_form table table-bordered tcd-workflow wf-form" style="table-layout:auto; background:#FFFFFF">
         <tbody><tr class="workflow_form_headline" style="color:#000000">
           <th class="text-center workflow_top_th" colspan="2">
@@ -147,18 +147,18 @@
           <!-- 按確認前顯示的內容 -->
           <td ng-hide="confirm" class="workflow_right_td">
             <!-- ngIf: row.type == 'text' -->
-            <input style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" type="text" ng-if="row.type == 'text'" ng-model="row.answer" ng-required="row.required == '1'" required="required">
+            <input style="background:#FFFFFF" class="form-control ng-scope" type="text" ng-if="row.type == 'text'" ng-model="row.answer" ng-required="row.required == '1'" required="required">
             <!-- end ngIf: row.type == 'text' -->
 
             <!-- ngIf: row.type == 'email' -->
-            <input style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-valid-email ng-invalid ng-invalid-required" type="email" ng-if=" row.type == 'email' " ng-model="row.answer" ng-required=" row.required == '1' " required="required">
+            <input style="background:#FFFFFF" class="form-control ng-scope" type="email" ng-if=" row.type == 'email' " ng-model="row.answer" ng-required=" row.required == '1' " required="required">
             <!-- end ngIf: row.type == 'email' -->
 
             <!-- ngIf: row.type == 'radio' -->
             <fieldset ng-if="row.type == 'radio'" class="ng-scope">
               <!-- ngRepeat: option in row.options track by $index -->
               <div style="display:inline-block" ng-repeat="option in row.options track by $index" class="ng-scope">
-                <input type="radio" id="@{{option}}" value="@{{option}}" ng-model="row.answer" class="ng-pristine ng-untouched ng-valid" name="45">&nbsp;&nbsp;@{{option}}
+                <input type="radio" id="@{{option}}" value="@{{option}}" ng-model="row.answer" name="45">&nbsp;&nbsp;@{{option}}
                 <label for="@{{option}}" class="ng-binding"></label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </div>
@@ -167,7 +167,7 @@
               <!-- end ngIf: row.type == 'radio' -->
 
               <!-- ngIf: row.type == 'textarea' -->
-              <textarea style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" ng-if="row.type == 'textarea'" ng-model="row.answer" ng-required="row.required == '1'" required="required"></textarea>
+              <textarea style="background:#FFFFFF" class="form-control ng-scope" ng-if="row.type == 'textarea'" ng-model="row.answer" ng-required="row.required == '1'" required="required"></textarea>
               <!-- ngIf: row.type == 'textarea' -->
           </td>
 
@@ -222,7 +222,14 @@
 <script type="text/javascript">
 	(function($){
 
-    equalheight=function(t){var i,e=0,h=0,r=new Array;$(t).each(function(){if(i=$(this),$(i).height("auto"),topPostion=i.position().top,h!=topPostion){for(currentDiv=0;currentDiv<r.length;currentDiv++)r[currentDiv].height(e);r.length=0,h=topPostion,e=i.height(),r.push(i)}else r.push(i),e=e<i.height()?i.height():e;for(currentDiv=0;currentDiv<r.length;currentDiv++)r[currentDiv].height(e)})};
+    equalheight=function(t){
+      var i, e=0, h=0, r=new Array;
+      $(t).each(function(){
+        if(i=$(this),$(i).height("auto"),topPostion=i.position().top,h!=topPostion){
+          for(currentDiv=0;currentDiv<r.length;currentDiv++)r[currentDiv].height(e);r.length=0,h=topPostion,e=i.height(),r.push(i)
+        }else r.push(i),e=e<i.height()?i.height():e;
+        for(currentDiv=0;currentDiv<r.length;currentDiv++)r[currentDiv].height(e)
+      })};
 
 
     if( $( window ).width() > 767 ){
