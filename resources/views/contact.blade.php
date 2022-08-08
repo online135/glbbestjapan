@@ -89,6 +89,7 @@
         $scope.confirmForm = function(){
           $scope.confirm = true
         }
+
         $scope.sendForm = function(){
           var str = "";
           var mail = "";
@@ -99,9 +100,14 @@
               mail = row.answer
             }
           })
-          var obj = { action: "tcd_submit_form", data: str, steps: angular.toJson($scope.data.steps), mail:mail, id: 2 }
+          var obj = { 
+            action: "tcd_submit_form",
+            data: str,
+            steps: angular.toJson($scope.data.steps),
+            mail:mail,
+            id: 2 }
           $http({
-            url: "https://glbbestjapan.com/wp-admin/admin-ajax.php",
+            url: "/contact/submitForm",
             method: "POST",
             params: obj,
           }).then(function(res){
@@ -113,7 +119,8 @@
   <div ng-app="app211119" ng-controller="MainCtrl211119" class="ng-scope">
 
     <h2 class="text-center ng-hide" ng-show="completed">
-      ご連絡ありがとうございます。担当者からご連絡いたしますので少々お待ちください。    </h2>
+      ご連絡ありがとうございます。担当者からご連絡いたしますので少々お待ちください。
+    </h2>
 
     <form ng-submit="confirmForm()" ng-hide="completed" class="ng-pristine ng-invalid ng-invalid-required ng-valid-email">
       <table class="workflow_form table table-bordered tcd-workflow wf-form" style="table-layout:auto; background:#FFFFFF">
@@ -154,17 +161,18 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </div>
               <!-- end ngRepeat: option in row.options track by $index -->
-            </fieldset>
-            <!-- end ngIf: row.type == 'radio' -->
+              </fieldset>
+              <!-- end ngIf: row.type == 'radio' -->
 
-            <!-- ngIf: row.type == 'textarea' -->
-            <textarea style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" ng-if="row.type == 'textarea'" ng-model="row.answer" ng-required="row.required == '1'" required="required"></textarea>
-            <!-- ngIf: row.type == 'textarea' -->
-          </td>
-          <td ng-show="confirm" class="ng-binding ng-hide"></td>
-        </tr>
+              <!-- ngIf: row.type == 'textarea' -->
+              <textarea style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" ng-if="row.type == 'textarea'" ng-model="row.answer" ng-required="row.required == '1'" required="required"></textarea>
+              <!-- ngIf: row.type == 'textarea' -->
+            </td>
+            <td ng-show="confirm" class="ng-binding ng-hide"></td>
+          </tr>
         <!-- end ngRepeat: row in data.steps -->
-      </tbody></table>
+        </tbody>
+      </table>
       <div class="text-center" colspan="2" ng-hide="confirm">
         <input type="submit" class="tcd-submit-button" value="確認画面へ">
       </div>

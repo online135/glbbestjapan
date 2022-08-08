@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
 	<title>Global Best Japan | 「IT×金融というサービス提供を通して世界の発展へ！」「グローバルベストジャパン株式会社」は、金融業界向けにシステムやサービスを提供する会社です。2014年に香港で設立されて2019年に日本進出を果たしました。現在は香港・シンガポール・東京の3都市にオフィスを構えています。</title>
 	<meta name="description" content="「IT×金融というサービス提供を通して世界の発展へ！」「グローバルベストジャパン株式会社」は、金融業界向けにシステムやサービスを提供する会社です。2014年に香港で設立されて2019年に日本進出を果たしました。現在は香港・シンガポール・東京の3都市にオフィスを構えています。">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -64,6 +63,7 @@ img.emoji {
 <link rel="icon" href="https://glbbestjapan.com/wp-content/uploads/2021/05/cropped-名称未設定のデザイン-50-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="https://glbbestjapan.com/wp-content/uploads/2021/05/cropped-名称未設定のデザイン-50-180x180.png">
 <meta name="msapplication-TileImage" content="https://glbbestjapan.com/wp-content/uploads/2021/05/cropped-名称未設定のデザイン-50-270x270.png">
+<meta name="csrf-token" content="{{ csrf_token() }}" />
 		<style type="text/css" id="wp-custom-css">
 			.agent-header-menu .navbar{
 margin-left:0px;
