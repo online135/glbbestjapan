@@ -158,7 +158,7 @@
             <fieldset ng-if="row.type == 'radio'" class="ng-scope">
               <!-- ngRepeat: option in row.options track by $index -->
               <div style="display:inline-block" ng-repeat="option in row.options track by $index" class="ng-scope">
-                <input type="radio" id="@{{option}}" value="@{{option}}" ng-model="row.answer" name="45">&nbsp;&nbsp;@{{option}}
+                <input type="radio" id="@{{option}}" value="@{{option}}" ng-model="row.answer">&nbsp;&nbsp;@{{option}}
                 <label for="@{{option}}" class="ng-binding"></label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </div>
