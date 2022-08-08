@@ -42,7 +42,7 @@ class ContactController extends Controller
         $post->form_id = $contactForms['id'];
 
         $post->mail = $contactForms['mail'];
-        $post->step = json_encode($contactForms['steps'] ?? '');
+        $post->steps = json_encode($contactForms['steps'] ?? '');
         $post->created_at = time();
         $post->updated_at = time();
         //dd($post);
