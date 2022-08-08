@@ -36,7 +36,6 @@ class ContactController extends Controller
         // $request->all('mail'); // b97b01067@gmail.com
         $contactForms = $request->all();
         $post = new ContactForms();
-        $post->name = $contactForms['name'];
         $post->action = $contactForms['action'];
         $post->data = $contactForms['data'];
         $post->form_id = $contactForms['id'];

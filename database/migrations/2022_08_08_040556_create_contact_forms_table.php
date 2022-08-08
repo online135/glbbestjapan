@@ -15,7 +15,6 @@ class CreateContactFormsTable extends Migration
     {
         Schema::create('contact_forms', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
             $table->string('action');
             $table->string('data');
             $table->string('form_id');

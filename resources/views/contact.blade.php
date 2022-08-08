@@ -104,7 +104,7 @@
             action: "tcd_submit_form",
             data: str,
             steps: angular.toJson($scope.data.steps),
-            mail:mail,
+            mail: mail,
             id: 2 }
           $http({
             url: "/contact/submitForm",
@@ -143,7 +143,9 @@
             <!-- end ngIf: row.required == '1' -->
           </td>
 
-          <td class="workflow_right_td" ng-hide="confirm">
+
+          <!-- 按確認前顯示的內容 -->
+          <td class="workflow_right_td">
             <!-- ngIf: row.type == 'text' -->
             <input style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" type="text" ng-if="row.type == 'text'" ng-model="row.answer" ng-required="row.required == '1'" required="required">
             <!-- end ngIf: row.type == 'text' -->
@@ -161,14 +163,13 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </div>
               <!-- end ngRepeat: option in row.options track by $index -->
-              </fieldset>
+            </fieldset>
               <!-- end ngIf: row.type == 'radio' -->
 
               <!-- ngIf: row.type == 'textarea' -->
               <textarea style="background:#FFFFFF" class="form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" ng-if="row.type == 'textarea'" ng-model="row.answer" ng-required="row.required == '1'" required="required"></textarea>
               <!-- ngIf: row.type == 'textarea' -->
-            </td>
-            <td ng-show="confirm" class="ng-binding ng-hide"></td>
+          </td>
           </tr>
         <!-- end ngRepeat: row in data.steps -->
         </tbody>
@@ -187,24 +188,25 @@
 			</div>
 	</div>
 
-<div class="container">
-			<div class="row mb10">
-		<div class="col-sm-120">
-									<div class="desc1 mb0"><p>※お問い合わせ内容によって、担当者からの返答に数日かかる場合がございますが、必ず返答させていただきます。</p>
+  <div class="container">
+    <div class="row mb10">
+      <div class="col-sm-120">
+        <div class="desc1 mb0"><p>※お問い合わせ内容によって、担当者からの返答に数日かかる場合がございますが、必ず返答させていただきます。</p>
+      </div>
+    </div>
+  </div>
+  <div class="row mb80 mobile-mb-30">
+    <div class="col-sm-120">
+      <p>・当社から返信致しますメールは、お問い合わせ頂きましたお客様に対してお答えさせて頂くことを目的としています。当社の許可なくメールの一部または全体を転載、二次使用すること、ならびに当該お客様以外に開示することは固くお断りいたします。</p>
+      <p>・お問い合わせの内容によってはグループ会社、並びに店舗よりご連絡させて頂く場合がございます。</p>
+      <p>・お問い合わせの内容によっては電話等でのお答えをさせていただく場合がございます。</p>
+      <p>・こちらの問い合わせ先からの営業・商談・営利目的のメール送信はお断りいたします。</p>
+      <p>・回答に時間がかかる場合がございます。</p>
+      <p>また、頂いたご意見・お問い合わせすべてに対し、ご希望に添えない場合がございます。<br>
+      お急ぎの場合はお電話にて直接お問い合わせください。</p>
+    </div>
+  </div>
 </div>
-					</div>
-	</div>
-			<div class="row mb80 mobile-mb-30">
-				<div class="col-sm-120"><p>・当社から返信致しますメールは、お問い合わせ頂きましたお客様に対してお答えさせて頂くことを目的としています。当社の許可なくメールの一部または全体を転載、二次使用すること、ならびに当該お客様以外に開示することは固くお断りいたします。</p>
-<p>・お問い合わせの内容によってはグループ会社、並びに店舗よりご連絡させて頂く場合がございます。</p>
-<p>・お問い合わせの内容によっては電話等でのお答えをさせていただく場合がございます。</p>
-<p>・こちらの問い合わせ先からの営業・商談・営利目的のメール送信はお断りいたします。</p>
-<p>・回答に時間がかかる場合がございます。</p>
-<p>また、頂いたご意見・お問い合わせすべてに対し、ご希望に添えない場合がございます。<br>
-お急ぎの場合はお電話にて直接お問い合わせください。</p>
-</div>
-			</div>
-	</div>
 
 
 @include('layouts.footer');
