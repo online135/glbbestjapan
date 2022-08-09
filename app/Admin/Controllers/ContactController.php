@@ -95,7 +95,6 @@ class ContactController extends AdminController
         $form->display('created_at', __('Created At'));
         $form->display('updated_at', __('Updated At'));
         $form->tools(function (Form\Tools $tools) {
-            // Disable Delete button.
             $tools->disableDelete();
         });
 
