@@ -15,6 +15,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
+        $schedule->command('route:list')->everyFiveMinutes();
+        $schedule->command('command:testSchedule')->everyMinute();
         // $schedule->command('inspire')->hourly();
     }
 
