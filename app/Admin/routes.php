@@ -13,4 +13,7 @@ Route::group([
 
     $router->get('/', 'HomeController@index')->name('home');
 
+    Route::group(['prefix' => 'auth'], function ($route) {
+        $route->resource('contact', 'ContactController');
+    });    
 });

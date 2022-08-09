@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use App\Models\ContactForms;
+use App\Models\ContactFormsModel;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -35,7 +35,7 @@ class ContactController extends Controller
         // $request->all('id'); // 2
         // $request->all('mail'); // b97b01067@gmail.com
         $contactForms = $request->all();
-        $post = new ContactForms();
+        $post = new ContactFormsModel();
         $post->action = $contactForms['action'];
         $post->data = $contactForms['data'];
         $post->form_id = $contactForms['id'];

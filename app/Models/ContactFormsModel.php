@@ -2,9 +2,10 @@
 
 namespace App\Models;
 
+use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model;
 
-class ContactForms extends Model
+class ContactFormsModel extends Model
 {
     /**
      * The table associated with the model.
@@ -12,4 +13,9 @@ class ContactForms extends Model
      * @var string
      */
     protected $table = 'contact_forms';
+
+    protected function serializeDate(DateTimeInterface $date): string
+    {
+        return $date->format(('Y-m-d H:i:s'));
+    }
 }
