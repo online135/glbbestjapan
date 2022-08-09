@@ -2,7 +2,11 @@
 
 namespace App\Console\Commands;
 
+use App\Models\ContactFormsModel;
+use Carbon\Carbon;
+use DateTime;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Mail;
 
 class testSchedule extends Command
 {
@@ -37,7 +41,23 @@ class testSchedule extends Command
      */
     public function handle()
     {
-        echo "testScheduleFunction1";
-        return "testScheduleFunction2";
+        $date = new DateTime('now');
+        $contactFormsModels = ContactFormsModel::whereDate('created_at', Carbon::today())->get();
+        $number = $contactFormsModels->count();
+
+        $message = $number . "個" . PHP_EOL;
+        foreach ($contactFormsModels as $contactFormsModel)
+        {
+            $message .= "Mail: " . $contactFormsModel->mail . PHP_EOL;
+        }
+        $mail = "b97b01067@gmail.com";
+        $date = new DateTime('now');
+        Mail::raw($message, function($message) use ($mail, $date)
+        {
+            $message->from('b97b01067@gmail.com', 'Global Best Japan');
+         
+            $message->to($mail)->subject($date->format('Y/m/d') . 'のお問い合わせ');
+        });
+        echo "send complete";
     }
 }
