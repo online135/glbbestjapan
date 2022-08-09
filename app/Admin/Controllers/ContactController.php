@@ -41,6 +41,7 @@ class ContactController extends AdminController
             $actions->disableDelete();
             $actions->add(new Status);
         });
+        $grid->model()->orderBy('id', 'desc');
         return $grid;
     }
 
