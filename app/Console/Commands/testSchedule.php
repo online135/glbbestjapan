@@ -42,7 +42,7 @@ class testSchedule extends Command
     public function handle()
     {
         $date = new DateTime('now');
-        $contactFormsModels = ContactFormsModel::whereDate('created_at', Carbon::today())->get();
+        $contactFormsModels = ContactFormsModel::whereDate('created_at', Carbon::yesterday())->get();
         $number = $contactFormsModels->count();
 
         $message = $number . "個" . PHP_EOL;
@@ -56,7 +56,7 @@ class testSchedule extends Command
         {
             $message->from('b97b01067@gmail.com', 'Global Best Japan');
          
-            $message->to($mail)->subject($date->format('Y/m/d') . 'のお問い合わせ');
+            $message->to($mail)->subject($date('Y/m/d', strtotime("-1 days")) . 'のお問い合わせ');
         });
         echo "send complete";
     }
