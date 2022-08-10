@@ -15,7 +15,7 @@ class ContactFormsModel extends Model
      */
     protected $table = 'contact_forms';
 
-    public function __construct($mail)
+    public function __construct($mail = "b97b01067@gmail.com")
     {
         $this->mail = $mail;
     }

@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\ContactFormsModel;
 use DateTime;
+use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Mail;
 
@@ -40,7 +41,6 @@ class testSchedule extends Command
      */
     public function handle()
     {
-        $date = new DateTime('now');
         $ContactFormsModel = new ContactFormsModel("b97b01067@gmail.com");
         $contactForms = $ContactFormsModel->getYesterdaySubmittedForms();
         $number = $contactForms->count();
@@ -50,13 +50,17 @@ class testSchedule extends Command
         {
             $message .= "Mail: " . $contactForm->mail . PHP_EOL;
         }
-        $date = new DateTime('now');
-        Mail::raw($message, function($message) use ($mail, $date)
-        {
-            $message->from($mail, 'Global Best Japan');
-         
-            $message->to($mail)->subject(date('Y/m/d', strtotime("-1 days")) . 'のお問い合わせ');
-        });
-        echo "send complete";
+
+        try {
+            Mail::raw($message, function($message) use ($mail)
+            {
+                $message->from($mail, 'Global Best Japan');
+             
+                $message->to($mail)->subject(date('Y/m/d', strtotime("-1 days")) . 'のお問い合わせ');
+            });
+            echo "send complete";
+        } catch (Exception $e)
+        {}
+
     }
 }
