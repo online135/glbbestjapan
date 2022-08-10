@@ -3,7 +3,6 @@
 namespace App\Console\Commands;
 
 use App\Models\ContactFormsModel;
-use Carbon\Carbon;
 use DateTime;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Mail;
@@ -43,7 +42,7 @@ class testSchedule extends Command
     {
         $date = new DateTime('now');
         $ContactFormsModel = new ContactFormsModel("b97b01067@gmail.com");
-        $contactForms = $ContactFormsModel->getYesterDaySubmittedForms();
+        $contactForms = $ContactFormsModel->getYesterdaySubmittedForms();
         $number = $contactForms->count();
         $mail = $ContactFormsModel->mail;
         $message = $number . "個" . PHP_EOL;
@@ -54,7 +53,7 @@ class testSchedule extends Command
         $date = new DateTime('now');
         Mail::raw($message, function($message) use ($mail, $date)
         {
-            $message->from('b97b01067@gmail.com', 'Global Best Japan');
+            $message->from($mail, 'Global Best Japan');
          
             $message->to($mail)->subject(date('Y/m/d', strtotime("-1 days")) . 'のお問い合わせ');
         });

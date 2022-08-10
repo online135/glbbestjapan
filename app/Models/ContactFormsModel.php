@@ -25,7 +25,7 @@ class ContactFormsModel extends Model
         return $date->format(('Y-m-d H:i:s'));
     }
 
-    public function getYesterDaySubmittedForms()
+    public function getYesterdaySubmittedForms()
     {
         return $this->whereDate('created_at', Carbon::yesterday())->get();
     }
