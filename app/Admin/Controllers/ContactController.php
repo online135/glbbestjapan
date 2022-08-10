@@ -2,6 +2,7 @@
 
 namespace App\Admin\Controllers;
 
+use App\Admin\Actions\Post\SendMail;
 use App\Admin\Actions\Post\Status;
 use App\Models\ContactFormsModel;
 use Encore\Admin\Controllers\AdminController;
@@ -40,6 +41,7 @@ class ContactController extends AdminController
         $grid->actions(function (Grid\Displayers\Actions $actions) {
             $actions->disableDelete();
             $actions->add(new Status);
+            $actions->add(new SendMail);
         });
         $grid->model()->orderBy('id', 'desc');
         return $grid;
