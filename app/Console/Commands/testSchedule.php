@@ -42,21 +42,21 @@ class testSchedule extends Command
     public function handle()
     {
         $date = new DateTime('now');
-        $contactFormsModels = ContactFormsModel::whereDate('created_at', Carbon::yesterday())->get();
-        $number = $contactFormsModels->count();
-
+        $ContactFormsModel = new ContactFormsModel("b97b01067@gmail.com");
+        $contactForms = $ContactFormsModel->getYesterDaySubmittedForms();
+        $number = $contactForms->count();
+        $mail = $ContactFormsModel->mail;
         $message = $number . "個" . PHP_EOL;
-        foreach ($contactFormsModels as $contactFormsModel)
+        foreach ($contactForms as $contactForm)
         {
-            $message .= "Mail: " . $contactFormsModel->mail . PHP_EOL;
+            $message .= "Mail: " . $contactForm->mail . PHP_EOL;
         }
-        $mail = "b97b01067@gmail.com";
         $date = new DateTime('now');
         Mail::raw($message, function($message) use ($mail, $date)
         {
             $message->from('b97b01067@gmail.com', 'Global Best Japan');
          
-            $message->to($mail)->subject($date('Y/m/d', strtotime("-1 days")) . 'のお問い合わせ');
+            $message->to($mail)->subject(date('Y/m/d', strtotime("-1 days")) . 'のお問い合わせ');
         });
         echo "send complete";
     }
