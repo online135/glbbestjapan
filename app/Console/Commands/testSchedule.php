@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use App\Models\ContactFormsModel;
+use App\Models\MailModel;
 use DateTime;
 use Exception;
 use Illuminate\Console\Command;
@@ -51,16 +52,7 @@ class testSchedule extends Command
             $message .= "Mail: " . $contactForm->mail . PHP_EOL;
         }
 
-        try {
-            Mail::raw($message, function($message) use ($mail)
-            {
-                $message->from($mail, 'Global Best Japan');
-             
-                $message->to($mail)->subject(date('Y/m/d', strtotime("-1 days")) . 'のお問い合わせ');
-            });
-            echo "send complete";
-        } catch (Exception $e)
-        {}
-
+        $mailModel = new MailModel($mail, $message);
+        $mailModel->sendYesterdaySubmittedReportMail();
     }
 }

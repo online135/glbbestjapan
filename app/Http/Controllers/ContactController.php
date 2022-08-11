@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\ContactFormsModel;
+use App\Models\MailModel;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -25,16 +26,7 @@ class ContactController extends Controller
         $post->updated_at = time();
         $post->save();
 
-
-        $message = "ご連絡ありがとうございます。担当者からご連絡いたしますので少々お待ちください。";
-        try {
-            Mail::raw($message, function($message) use ($mail)
-            {
-                $message->from('b97b01067@gmail.com', 'Global Best Japan');
-             
-                $message->to($mail)->subject('Global Best Japan');
-            });
-        } 
-        catch(Exception $e){}
+        $mailModel = new MailModel($mail);
+        $mailModel->sendFormSubmittedMail();
     }
 }
