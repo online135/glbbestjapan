@@ -21,7 +21,7 @@ class MailModel
     public function sendAlreadyReadMail()
     {
         $mail = $this->mail;
-        $message = $this->message;
+        $message = "We had read your submission, start handle and we might contact with you shortly";
         try {
             Mail::raw($message, function($message) use ($mail)
             {

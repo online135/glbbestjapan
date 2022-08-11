@@ -17,9 +17,8 @@ class SendMail extends RowAction
         if ($model->status)
         {
             $mail = $model->mail;
-            $message = "We had read your submission, start handle and we might contact with you shortly";
 
-            $mailModel = new MailModel($mail, $message);
+            $mailModel = new MailModel($mail);
             $mailModel->sendAlreadyReadMail();
 
             $model->status = false;
