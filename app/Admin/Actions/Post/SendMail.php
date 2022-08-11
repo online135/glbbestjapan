@@ -4,9 +4,7 @@ namespace App\Admin\Actions\Post;
 
 use App\Models\MailModel;
 use Encore\Admin\Actions\RowAction;
-use Exception;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Mail;
 
 class SendMail extends RowAction
 {

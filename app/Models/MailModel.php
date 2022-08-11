@@ -1,9 +1,6 @@
 <?php
 
 namespace App\Models;
-
-use Carbon\Carbon;
-use DateTimeInterface;
 use Exception;
 use Illuminate\Support\Facades\Mail;
 
