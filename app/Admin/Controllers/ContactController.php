@@ -59,10 +59,9 @@ class ContactController extends AdminController
         $show->field('id', __('ID'));
         $show->field('mail', __('Mail'));
         $show->data()->unescape()->as(function ($data) {
-            $dataArray = json_decode($data, TRUE);
             $output = "";
-
-            foreach ($dataArray[0] as $key => $value)
+            $data = json_decode($data);
+            foreach ($data as $key => $value)
             {
                 $output .= "<div>" . $key . ": ". $value . "</div>";
             }

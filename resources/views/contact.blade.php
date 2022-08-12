@@ -92,7 +92,6 @@
 
         $scope.sendForm = function(){
           let data = {};
-          let dataArray = [];
           let mail = "";
           $scope.data.steps.forEach(function(row){
             if( row.type == 'email' ){
@@ -102,10 +101,9 @@
             data[row.label1] = row.answer;
             
           })
-          dataArray.push({...data});
           let obj = { 
             action: "tcd_submit_form",
-            data: JSON.stringify(dataArray),
+            data: data,
             steps: angular.toJson($scope.data.steps),
             mail: mail,
             id: 2 }
