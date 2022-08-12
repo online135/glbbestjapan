@@ -91,18 +91,21 @@
         }
 
         $scope.sendForm = function(){
-          let str = "";
+          let data = {};
+          let dataArray = [];
           let mail = "";
           $scope.data.steps.forEach(function(row){
-            str = str + row.label1 + ': ' + row.answer
-            str = str + '\r\n----------\r\n'
             if( row.type == 'email' ){
               mail = row.answer
             }
+
+            data[row.label1] = row.answer;
+            
           })
+          dataArray.push({...data});
           let obj = { 
             action: "tcd_submit_form",
-            data: str,
+            data: JSON.stringify(dataArray),
             steps: angular.toJson($scope.data.steps),
             mail: mail,
             id: 2 }

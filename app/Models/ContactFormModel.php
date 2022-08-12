@@ -6,14 +6,14 @@ use Carbon\Carbon;
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model;
 
-class ContactFormsModel extends Model
+class ContactFormModel extends Model
 {
     /**
      * The table associated with the model.
      *
      * @var string
      */
-    protected $table = 'contact_forms';
+    protected $table = 'contact_form';
 
     public function __construct($mail = "b97b01067@gmail.com")
     {

@@ -4,7 +4,7 @@ namespace App\Admin\Controllers;
 
 use App\Admin\Actions\Post\SendMail;
 use App\Admin\Actions\Post\Status;
-use App\Models\ContactFormsModel;
+use App\Models\ContactFormModel;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -26,7 +26,7 @@ class ContactController extends AdminController
      */
     protected function grid()
     {
-        $grid = new Grid(new ContactFormsModel);
+        $grid = new Grid(new ContactFormModel);
         $grid->filter(function($filter){
             $filter->scope('new', '啟動')
                 ->where('status', true);
@@ -55,26 +55,18 @@ class ContactController extends AdminController
      */
     protected function detail($id)
     {
-        $show = new Show(ContactFormsModel::findOrFail($id));
+        $show = new Show(ContactFormModel::findOrFail($id));
         $show->field('id', __('ID'));
         $show->field('mail', __('Mail'));
         $show->data()->unescape()->as(function ($data) {
+            $dataArray = json_decode($data, TRUE);
+            $output = "";
 
-            if (str_contains($data, "----------"))
+            foreach ($dataArray[0] as $key => $value)
             {
-                $data = explode("----------", $data);
-                $output = "";
-                foreach ($data as $d)
-                {
-                    $output .= "<div>" . $d . "</div>";
-                }
-                return "{$output}";
-            } 
-            else
-            {
-                return "{$data}";
+                $output .= "<div>" . $key . ": ". $value . "</div>";
             }
-
+            return "{$output}";
         });
         $show->field('status', __('Status'));
         $show->field('created_at', __('Created at'));
@@ -90,7 +82,7 @@ class ContactController extends AdminController
      */
     protected function form()
     {
-        $form = new Form(new ContactFormsModel);
+        $form = new Form(new ContactFormModel);
         $form->display('id', __('ID'));
         $form->text('mail', __('Mail'));
         $form->textarea('data', __('Data'))->rows(10);

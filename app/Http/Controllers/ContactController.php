@@ -3,25 +3,23 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use App\Models\ContactFormsModel;
+use App\Models\ContactFormModel;
 use App\Models\MailModel;
-use Exception;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
     public function submitForm(Request $request)
     {
-        $contactForms = $request->all();
-        $mail = $contactForms['mail'];
+        $contactForm = $request->all();
+        $mail = $contactForm['mail'];
 
-        $post = new ContactFormsModel();
-        $post->action = $contactForms['action'];
-        $post->data = $contactForms['data'];
-        $post->form_id = $contactForms['id'];
+        $post = new ContactFormModel();
+        $post->action = $contactForm['action'];
+        $post->data = $contactForm['data'];
+        $post->form_id = $contactForm['id'];
         $post->mail = $mail;
-        $post->steps = json_encode($contactForms['steps'] ?? '');
+        $post->steps = json_encode($contactForm['steps'] ?? '');
         $post->created_at = time();
         $post->updated_at = time();
         $post->save();
