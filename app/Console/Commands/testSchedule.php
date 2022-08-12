@@ -2,12 +2,9 @@
 
 namespace App\Console\Commands;
 
-use App\Models\ContactFormsModel;
+use App\Models\ContactFormModel;
 use App\Models\MailModel;
-use DateTime;
-use Exception;
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\Mail;
 
 class testSchedule extends Command
 {
@@ -42,7 +39,7 @@ class testSchedule extends Command
      */
     public function handle()
     {
-        $ContactFormsModel = new ContactFormsModel("b97b01067@gmail.com");
+        $ContactFormsModel = new ContactFormModel("b97b01067@gmail.com");
         $contactForms = $ContactFormsModel->getYesterdaySubmittedForms();
         $number = $contactForms->count();
         $mail = $ContactFormsModel->mail;
