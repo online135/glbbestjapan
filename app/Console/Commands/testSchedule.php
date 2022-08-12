@@ -39,10 +39,10 @@ class testSchedule extends Command
      */
     public function handle()
     {
-        $ContactFormsModel = new ContactFormModel("b97b01067@gmail.com");
-        $contactForms = $ContactFormsModel->getYesterdaySubmittedForms();
+        $ContactFormModel = new ContactFormModel("b97b01067@gmail.com");
+        $contactForms = $ContactFormModel->getYesterdaySubmittedForms();
         $number = $contactForms->count();
-        $mail = $ContactFormsModel->mail;
+        $mail = $ContactFormModel->mail;
         $message = $number . "個" . PHP_EOL;
         foreach ($contactForms as $contactForm)
         {
